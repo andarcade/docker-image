@@ -18,7 +18,7 @@ RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 
 # Setup Git config
 RUN git config --global user.name "bot"
-RUN git config --global user.email "bot@android-rpi"
+RUN git config --global user.email "bot@rpi-atv"
 RUN git config --global color.ui false
 
 # Install Android repo tool
