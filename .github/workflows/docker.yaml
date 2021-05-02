@@ -18,5 +18,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ghcr.io
-          repository: rpi-atv/docker-image/builder
+          repository: rpi-atv/builder
           tag_with_ref: true
